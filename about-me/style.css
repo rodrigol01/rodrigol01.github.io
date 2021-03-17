@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    background: rgb(233, 230, 230);
+    color: rgb(51, 50, 50);
+    font-family: 'Inconsolata', monospace;
+    background: url(images/background.png); 
+    background-attachment: fixed;
+}
+
+h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-bottom: 5px;
+    letter-spacing: -1px;
+}
+
+h2{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+h3{
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+h4{
+    font-size: 1.1em;
+    margin-top: 5px;
+    margin-bottom: 4px;
+}
+
+h5{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+p{
+    margin-bottom: 30px;
+}
+
+ul{
+    margin-bottom: 30px;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+    background: rgb(233, 230, 230);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.image{
+    margin-top: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgb(136, 133, 133);
+    width: 380px;
+}
+
+.profile{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.links{
+    text-decoration: none;
+}
+
+.img-links{
+    width: 40px;
+}
+
+.img-links:hover{
+    background-color: rgb(67, 67, 170);
+    border-radius: 50%;
+}
+
+.img-links-center{
+    width: 40px;
+    margin: 0px 10px 0px 10px;
+}
+
+.img-links-center:hover{
+    background-color: rgb(67, 67, 170);
+    border-radius: 11px;
+}
+
+.img-links-center-2{
+    width: 40px;
+    margin: 0px 0px 0px 10px;
+}
+
+.img-links-center-2:hover{
+    background-color: rgb(67, 67, 170);
+    border-radius: 50%;
+}
+
+.skills{
+    list-style: circle;
+}
+
+.no-margin{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+.footer{
+    background:rgb(51, 50, 50);
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
