@@ -12,6 +12,7 @@ body{
     color: rgb(235, 232, 232);
     background: rgb(54,77,204);
     background: linear-gradient(180deg, rgba(54,77,204,1) 0%, rgba(201,246,103,1) 89%) fixed;
+    text-align: justify;
     font-family: 'Ubuntu', sans-serif;
 }
 
